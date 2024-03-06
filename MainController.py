@@ -8,7 +8,7 @@ pygame.mixer.pre_init(44100, -16, 2, 2048)
 pygame.mixer.init()
 pygame.init()
 pygame.font.init()
-pygame.joystick.init()
+pygame.joystick.init() 
 
 joysticks = [pygame.joystick.Joystick(x) for x in range(pygame.joystick.get_count())]
 for joystick in joysticks:
